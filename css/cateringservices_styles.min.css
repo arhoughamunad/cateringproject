@@ -1,0 +1,150 @@
+/* Estilos generales para la página */
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Encabezados principales */
+.h1 {
+    font-size: 48px !important;
+    font-weight: 200 !important;
+}
+
+.h2 {
+    font-size: 30px !important;
+    font-weight: 300;
+}
+
+.h3 {
+    font-size: 22px !important;
+}
+
+/* Estilos para enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Clases de texto personalizadas */
+.text-warning {
+    color: #ede861 !important;
+}
+
+.text-muted {
+    color: #bcbcbc !important;
+}
+
+.text-success {
+    color: #59ab6e !important;
+}
+
+.text-light {
+    color: #cfd6e1 !important;
+}
+
+/* Fondos personalizados */
+.bg-dark {
+    background-color: #212934 !important;
+}
+
+.bg-light {
+    background-color: #e9eef5 !important;
+}
+
+.bg-black {
+    background-color: #1d242d !important;
+}
+
+.bg-success, .btn-success {
+    background-color: #59ab6e !important;
+}
+
+.btn-success {
+    border-color: #56ae6c !important;
+}
+
+/* Estilos para botones */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #343a40;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 10px;
+}
+
+/* Estilos para imágenes responsivas */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Media Queries */
+@media (min-width: 576px) {
+    .catering-carrusel .h1 {
+        font-size: 1em !important;
+    }
+}
+
+@media (min-width: 768px) {
+    #menu_nav_principal .navbar-nav {
+        max-width: 450px;
+    }
+}
+
+@media (min-width: 992px) {
+    #menu_nav_principal .navbar-nav {
+        max-width: 550px;
+    }
+    
+    #catering-princ-carrusel .carousel-item {
+        min-height: 30rem !important;
+    }
+    
+    .product-wap .h3,
+    .product-wap i,
+    .product-wap li,
+    .product-wap p {
+        font-size: 18px !important;
+    }
+    
+    .product-wap .product-color-dot {
+        width: 12px;
+        height: 12px;
+    }
+}
