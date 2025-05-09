@@ -148,7 +148,7 @@
                                                         alt="Brand Logo"></a>
                                             </div>
                                             <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="./img/Aliado_3.png"
+                                                <a href="#"><img class="img-fluid brand-img" src="./img/Aliado_3.jpg"
                                                         alt="Brand Logo"></a>
                                             </div>
                                             <div class="col-3 p-md-5">
