@@ -45,6 +45,8 @@ $correo = isset($_GET['correo']) ? htmlspecialchars($_GET['correo']) : '';
         <label for="password">Contraseña:</label>
         <input type="password" id="password" name="password" required>
         <br>
+		<p>Si necesitas recuperar tu contraseña comunícate con nosotros desde el área de <a href="contact.php">Contáctenos</a></p>
+
 
 
 
